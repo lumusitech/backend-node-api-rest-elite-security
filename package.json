@@ -1,0 +1,30 @@
+{
+  "name": "server-node",
+  "version": "0.1.0",
+  "description": "landing page and api rest - elite security",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "keywords": [
+    "elite",
+    "security"
+  ],
+  "author": "lumusitech",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "colors": "^1.4.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "helmet": "^5.0.2",
+    "mongoose": "^6.2.8",
+    "morgan": "^1.10.0"
+  }
+}
